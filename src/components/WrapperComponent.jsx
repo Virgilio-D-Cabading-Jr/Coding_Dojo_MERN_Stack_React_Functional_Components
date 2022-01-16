@@ -13,7 +13,14 @@ const WrapperComp = () => {
         <div className='border p-2'>
             <p>Wrapper Component</p>
             <NavbarComp />
-            <FormWrapperComp />
+            {/* //// MAIN AREA //////// */}
+            <main role="main">
+                <div class="container mt-4">
+                    <div class="row">
+                        <FormWrapperComp className="col" />
+                    </div>
+                </div>
+            </main>
         </div>
     )
 }

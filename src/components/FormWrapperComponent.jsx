@@ -8,7 +8,7 @@ import FormComp from './FormComponent'
  */
 const FormWrapperComp = () => {
     return (
-        <div className='border p-2'>
+        <div className='border bg-white p-2'>
             <p>Form Wrapper Component</p>
             {/* **** FORM COMPONENT *********************** */}
             <FormComp />
