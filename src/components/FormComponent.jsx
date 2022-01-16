@@ -3,23 +3,30 @@ import { useContext } from 'react';
 import MyContext from '../context/MyContext';
 
 /**
- * //// FORM COMPONENT ////////////////////////////////
- * @returns Input form
  * ////////////////////////////////////////////////////////////
+ * FORM COMPONENT
+ * ////////////////////////////////////////////////////////////
+ * @returns Input form
  */
 
 const FormComp = () => {
+    // //// FIELDS ////////////////////////////////////////////
     const context = useContext(MyContext);
+    let userName = context.userName;
+
+    // //// OUTPUT ////////////////////////////////////////////
     return (
         <div className='border p-2'>
             <p>Form Component</p>
-            <p>{ JSON.stringify(context) }</p>
             <form>
-                <div class="form-group">
+                <div class="form-group mb-2">
                     <label for="userName">User Name:</label>
-                    <input type="userName" class="form-control" id="userName" aria-describedby="userName" />
+                    <input  type="userName" class="form-control" 
+                            id="userName" name="userName" 
+                            aria-describedby="userName" 
+                            value={ userName }/>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary btn-sm round"><strong>Submit</strong></button>
             </form>
         </div>
     )
