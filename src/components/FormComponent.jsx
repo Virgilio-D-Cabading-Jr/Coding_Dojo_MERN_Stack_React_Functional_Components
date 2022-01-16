@@ -16,8 +16,7 @@ const FormComp = () => {
 
     // //// OUTPUT ////////////////////////////////////////////
     return (
-        <div className='border p-2'>
-            <p>Form Component</p>
+        <div>
             <form>
                 <div class="form-group mb-2">
                     <label for="userName">User Name:</label>
