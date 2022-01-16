@@ -16,7 +16,7 @@ const NavbarComp = () => {
                         <a href="/" class="navbar-brand d-flex align-items-center">
                             <strong class="text-warning">Nav Bar Context</strong>
                         </a>
-                        <a class="btn btn-secondary btn-sm" href="/">HOME</a>
+                        <a class="btn btn-secondary btn-sm round" href="/"><strong>Home</strong></a>
                     </div>
                 </div>
             </header>
