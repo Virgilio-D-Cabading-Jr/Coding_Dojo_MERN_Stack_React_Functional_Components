@@ -7,3 +7,5 @@ Program Origin: Coding Dojo > MERN Stack > React > Functional Programming
 Language: Javascript
 
 Library: React
+
+Script: npm, create-react-app
