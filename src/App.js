@@ -1,7 +1,8 @@
+import { createContext } from 'react';
 import './App.css';
+
 import WrapperComp from './components/WrapperComponent';
-import NavbarComp from './components/NavbarComponent';
-import FormWrapperComp from './components/FormWrapperComponent';
+import MyContext from './context/MyContext'
 
 /**
  * /////////////////////////////////////////////////////////////
@@ -10,12 +11,12 @@ import FormWrapperComp from './components/FormWrapperComponent';
  * @returns Content from all components to the root in index
  */
 const App = () => {
+
   return (
     <div className="App">
-      <WrapperComp>
-        <NavbarComp />
-        <FormWrapperComp />
-      </WrapperComp>
+      <MyContext.Provider value={"Valboa"}>
+        <WrapperComp />
+      </MyContext.Provider>
     </div>
   );
 }

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { useContext } from 'react';
+import MyContext from '../context/MyContext';
 
 /**
  * //// FORM COMPONENT ////////////////////////////////
@@ -7,9 +9,11 @@ import React from 'react'
  */
 
 const FormComp = () => {
+    const context = useContext(MyContext);
     return (
         <div className='border p-2'>
             <p>Form Component</p>
+            <p>{ JSON.stringify(context) }</p>
             <form>
                 <div class="form-group">
                     <label for="userName">User Name:</label>
