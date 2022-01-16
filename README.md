@@ -9,3 +9,5 @@ Language: Javascript
 Library: React
 
 Script: npm, create-react-app
+
+Platform: Visual Studio Code
