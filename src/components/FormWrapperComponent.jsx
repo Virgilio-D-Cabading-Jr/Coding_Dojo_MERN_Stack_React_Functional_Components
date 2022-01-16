@@ -6,13 +6,13 @@ import FormComponent from './FormComponent'
  * @returns wrapper around an input form
  * ////////////////////////////////////////////////////////////
  */
-const FormWrapperComponent = () => {
+const FormWrapperComp = () => {
     return (
         <div className='border'>
             {/* **** FORM COMPONENT *********************** */}
-            <FormComponent />
+            <FormComp />
         </div>
     )
 }
 
-export default FormWrapperComponent
+export default FormWrapperComp

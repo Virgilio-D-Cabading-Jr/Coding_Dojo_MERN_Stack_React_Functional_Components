@@ -6,7 +6,7 @@ import React from 'react'
  * ////////////////////////////////////////////////////////////
  */
 
-const FormComponent = () => {
+const FormComp = () => {
     return (
         <div className='border'>
             <p>Form Component</p>
@@ -14,4 +14,4 @@ const FormComponent = () => {
     )
 }
 
-export default FormComponent
+export default FormComp
