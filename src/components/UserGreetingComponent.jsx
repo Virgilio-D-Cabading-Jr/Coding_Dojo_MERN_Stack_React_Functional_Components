@@ -11,7 +11,6 @@ const UserGreetingComp = () => {
     // //// FIELDS ////////////////////////////////////////////////
     const context = useContext( MyContext );
     const userName = context.userName;
-    console.log(JSON.stringify(userName));
 
     // //// OUTPUT ////////////////////////////////////////////////
     if (userName !== "") {

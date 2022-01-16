@@ -19,7 +19,6 @@ const FormComp = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("In Handle Submit");
         context.setUserName(userName);
         // **** Reset Input ********
         setUserName("");
@@ -29,15 +28,16 @@ const FormComp = () => {
     return (
         <div>
             <form onSubmit={ (e) => handleSubmit(e) }>
-                <div class="form-group mb-2">
+                <div className="form-group mb-2">
                     <label for="userName">Enter New User Name:</label>
-                    <input  type="userName" class="form-control" 
+                    <input  type="userName" 
+                            className="form-control" 
                             id="userName" name="userName" 
                             aria-describedby="userName"
                             onChange={ (e) => setUserName( e.target.value )}
                             value={ userName }/>
                 </div>
-                <button type="submit" class="btn btn-primary btn-sm round"><strong>Submit</strong></button>
+                <button type="submit" className="btn btn-primary btn-sm round"><strong>Submit</strong></button>
             </form>
         </div>
     )

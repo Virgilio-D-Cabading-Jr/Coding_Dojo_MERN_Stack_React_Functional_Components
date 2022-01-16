@@ -15,8 +15,8 @@ const WrapperComp = () => {
             <NavbarComp />
             {/* //// MAIN AREA /////////////////////// */}
             <main role="main">
-                <div class="container mt-4">
-                    <div class="row">
+                <div className="container mt-4">
+                    <div className="row">
                         {/* //// FORM WRAPPER //////// */}
                         <FormWrapperComp className="col" />
                     </div>
