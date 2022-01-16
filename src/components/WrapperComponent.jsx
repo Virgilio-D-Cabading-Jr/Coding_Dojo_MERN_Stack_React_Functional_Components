@@ -12,11 +12,13 @@ const WrapperComp = () => {
     return (
         <div className='border p-2'>
             <p>Wrapper Component</p>
+            {/*//// NAVIGATION BAR COMPONENT ///////// */}
             <NavbarComp />
-            {/* //// MAIN AREA //////// */}
+            {/* //// MAIN AREA /////////////////////// */}
             <main role="main">
                 <div class="container mt-4">
                     <div class="row">
+                        {/* //// FORM WRAPPER //////// */}
                         <FormWrapperComp className="col" />
                     </div>
                 </div>
