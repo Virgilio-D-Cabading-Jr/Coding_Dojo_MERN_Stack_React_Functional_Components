@@ -10,8 +10,7 @@ import FormWrapperComp from './FormWrapperComponent'
  */
 const WrapperComp = () => {
     return (
-        <div className='border p-2'>
-            <p>Wrapper Component</p>
+        <div>
             {/*//// NAVIGATION BAR COMPONENT ///////// */}
             <NavbarComp />
             {/* //// MAIN AREA /////////////////////// */}
