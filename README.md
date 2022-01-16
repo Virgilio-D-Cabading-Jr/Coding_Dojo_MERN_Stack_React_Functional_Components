@@ -11,3 +11,17 @@ Library: React
 Script: npm, create-react-app
 
 Platform: Visual Studio Code
+
+---------------
+
+Objectives:
+
+1. Create the Form Component
+
+2. Create the FormWrapper Component
+
+3. Create your Navbar Component
+
+4. Create the Wrapper Component
+
+5. Create the context object
