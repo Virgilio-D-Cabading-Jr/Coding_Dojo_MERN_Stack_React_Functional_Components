@@ -8,7 +8,7 @@ import React from 'react'
 
 const FormComp = () => {
     return (
-        <div className='border'>
+        <div className='border p-2'>
             <p>Form Component</p>
         </div>
     )

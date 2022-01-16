@@ -1,5 +1,5 @@
 import React from 'react'
-import FormComponent from './FormComponent'
+import FormComp from './FormComponent'
 
 /**
  * //// FORM WRAPPER COMPONENT ////////////////////////////////
@@ -8,7 +8,8 @@ import FormComponent from './FormComponent'
  */
 const FormWrapperComp = () => {
     return (
-        <div className='border'>
+        <div className='border p-2'>
+            <p>Form Wrapper Component</p>
             {/* **** FORM COMPONENT *********************** */}
             <FormComp />
         </div>

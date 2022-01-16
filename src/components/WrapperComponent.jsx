@@ -1,4 +1,7 @@
 import React from 'react'
+import NavbarComp from './NavbarComponent'
+import FormWrapperComp from './FormWrapperComponent'
+
 /**
  * ///////////////////////////////////////////////////////
  * WRAPPER COMPONENT
@@ -7,8 +10,10 @@ import React from 'react'
  */
 const WrapperComp = () => {
     return (
-        <div className='border'>
+        <div className='border p-2'>
             <p>Wrapper Component</p>
+            <NavbarComp />
+            <FormWrapperComp />
         </div>
     )
 }

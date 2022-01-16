@@ -1,4 +1,7 @@
 import './App.css';
+import WrapperComp from './components/WrapperComponent';
+import NavbarComp from './components/NavbarComponent';
+import FormWrapperComp from './components/FormWrapperComponent';
 
 /**
  * /////////////////////////////////////////////////////////////
@@ -9,7 +12,10 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-
+      <WrapperComp>
+        <NavbarComp />
+        <FormWrapperComp />
+      </WrapperComp>
     </div>
   );
 }

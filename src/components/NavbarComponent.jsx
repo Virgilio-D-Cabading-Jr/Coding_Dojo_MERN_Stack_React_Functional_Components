@@ -2,8 +2,8 @@ import React from 'react'
 
 const NavbarComp = () => {
     return (
-        <div>
-            
+        <div className='border p-2'>
+            <p>NavBar Component</p>
         </div>
     )
 }
