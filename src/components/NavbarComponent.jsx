@@ -8,7 +8,7 @@ import React from 'react'
  */
 const NavbarComp = () => {
     return (
-        <div className='border p-2'>
+        <div>
             {/* //// HEADER //////// */}
             <header>
                 <div class="navbar navbar-dark bg-dark box-shadow">
