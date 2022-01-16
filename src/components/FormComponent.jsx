@@ -1,5 +1,11 @@
 import React from 'react'
 
+/**
+ * //// FORM COMPONENT ////////////////////////////////
+ * @returns Input form
+ * ////////////////////////////////////////////////////////////
+ */
+
 const FormComponent = () => {
     return (
         <div className='border'>

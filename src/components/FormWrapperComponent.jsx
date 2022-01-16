@@ -2,7 +2,7 @@ import React from 'react'
 import FormComponent from './FormComponent'
 
 /**
- * //// Form Wrapper Component ////////////////////////////////
+ * //// FORM WRAPPER COMPONENT ////////////////////////////////
  * @returns wrapper around an input form
  * ////////////////////////////////////////////////////////////
  */
