@@ -14,7 +14,7 @@ const NavbarComp = () => {
             <header>
                 <div className="navbar navbar-dark bg-dark box-shadow">
                     <div className="container d-flex justify-content-between">
-                        <a href="/" className="navbar-brand d-flex align-items-center">
+                        <a href="/" className="navbar-brand">
                             <strong className="text-warning">Nav Bar Context</strong>
                         </a>
                         < UserGreetingComp />
